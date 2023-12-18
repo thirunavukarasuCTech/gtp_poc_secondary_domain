@@ -1,0 +1,37 @@
+.background-section {
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .banner-user-greet {
+        .user-info-banner {
+            color: #FFF;
+            font-size: 62px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            /* 41.935% */
+            letter-spacing: -1.86px;
+        }
+
+        .banner-user-greet-description {
+            color: #FFF;
+            font-size: 31px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            /* 83.871% */
+            letter-spacing: -0.93px;
+        }
+    }
+
+    .banner-cards-container {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+}
