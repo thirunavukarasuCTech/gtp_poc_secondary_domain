@@ -10,7 +10,8 @@ import resortBonus from "../../../assets/resort_bonus.png"
 import restaurantDeal from "../../../assets/restaurant_deal.png"
 const Banner = () => {
   const isAuthenticated = useSelector((state: any) => state.userState.loginAndSignup.isAuthenticated);
-
+  console.log("Thiru",useSelector((state: any) => state.userState.loginAndSignup));
+  
   const sectionStyle = {
     backgroundImage: `url(${home})`,
     backgroundSize: 'cover',
